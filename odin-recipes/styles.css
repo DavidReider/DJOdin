@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list-item a{
+    color:brown;
+    font-size: larger;
+}
+
+.favorite a{
+    color: orange;
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
