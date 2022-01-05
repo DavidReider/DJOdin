@@ -2,3 +2,61 @@
   margin: 0px;
   padding: 0px;
 }
+
+header,
+footer,
+.hero-container {
+  background-color: #1f2937;
+}
+
+header,
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  gap: 24px;
+}
+
+.logo,
+ul {
+  margin: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.copywrite {
+  color: #e5e7eb;
+}
