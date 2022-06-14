@@ -9,13 +9,18 @@ footer,
   background-color: #1f2937;
 }
 
-header,
+.header-container,
 ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-self: center;
   gap: 24px;
+}
+
+.header-container {
+  max-width: 80%;
+  margin: auto;
 }
 
 .logo,
@@ -35,6 +40,7 @@ li a {
 
 .logo {
   font-size: 24px;
+  font-weight: bold;
   color: #f9faf8;
 }
 
@@ -67,6 +73,44 @@ li a {
   padding: 5px 20px;
   border: none;
   border-radius: 10px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin: auto;
+  height: 60vh;
+}
+
+.items-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.section-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.blue-border {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #3882f6;
+  border-radius: 10%;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote-container {
