@@ -56,6 +56,10 @@ li a {
   padding: 100px 200px;
 }
 
+.hero {
+  margin: 4em;
+}
+
 .hero-text {
   font-size: 48px;
   font-weight: bolder;
@@ -70,7 +74,8 @@ li a {
 .btn {
   background-color: #3882f6;
   color: #e5e7eb;
-  padding: 5px 20px;
+  padding: 12px 24px;
+  margin: 12px 0px;
   border: none;
   border-radius: 10px;
 }
@@ -118,8 +123,53 @@ li a {
   flex-direction: column;
 }
 
-.cta {
+.column {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 20px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.cta-container {
   background-color: #3882f6;
+  padding: 50px 50px;
+  border-radius: 8px;
+}
+
+.main,
+.sub-main,
+.btn-alt {
+  color: #e5e7eb;
+}
+
+.main {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px 24px;
+  margin: 0px 16px;
 }
 
 footer {
